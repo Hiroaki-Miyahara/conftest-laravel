@@ -1,0 +1,32 @@
+.thanks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+.thanks__background {
+    width: 100%;
+}
+.thanks__background-text {
+    text-align: center;
+    opacity: 0.05;
+    font-size: 250px;
+}
+.thanks__content {
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    padding: 15px 30px;
+	color: rgb(116, 80, 26);
+	text-align: center;
+}
+.thanks__button-home {
+    display: block;
+    background-color:rgb(116, 80, 26);
+    color: #fff;
+    text-decoration: none;
+    width: 25%;
+    margin-left: 150px;
+    padding: 5px 0;
+}

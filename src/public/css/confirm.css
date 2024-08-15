@@ -1,0 +1,60 @@
+.confirm__content {
+    text-align: center;
+    max-width: 1230px;
+    margin: 0 auto;
+}
+.confirm__heading {
+    color: rgb(116, 80, 26);
+    font-family: serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.form {
+    margin: 0 auto;
+    width: 70%;
+}
+.confirm-table {
+    border: 1px solid #ddd;
+}
+.confirm-table__inner {
+    width: 100%;
+}
+.confirm-table__header {
+    padding: 15px 50px;
+    width: 35%;
+    border-bottom: 1px solid #ddd;
+    background-color: rgb(140, 118, 80);
+    color: #fff;
+    font-weight: 400;
+    text-align: left;
+}
+.confirm-table__text {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+.confirm-table__text input {
+    width: 100%;
+    outline: none;
+    border: none;
+    color:  rgb(116, 80, 26);
+}
+.confirm-table__row:last-child .confirm-table__header,
+.confirm-table__row:last-child .confirm-table__text {
+    border-bottom-width: 0;
+}
+.form__button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form__button-submit {
+    padding: 5px 20px;
+    margin-right: 20px;
+    border: none;
+    background:rgb(116, 80, 26);
+    color: #fff;
+    cursor: pointer;
+}
+.form__button a {
+    color: rgb(116, 80, 26);
+}

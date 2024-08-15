@@ -1,0 +1,12 @@
+
+.header__inner {
+    text-align: center;
+    border-bottom: 1px solid #d8d5d5;
+}
+.header__logo {
+    color: rgb(116, 80, 26);
+    font-family: serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
